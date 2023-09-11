@@ -1,0 +1,102 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 13.98      0.13     0.13                             Player::discoverneighbors(int, int, int, char)
+  4.30      0.17     0.04                             Player::algo()
+  3.23      0.20     0.03                             std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator[](unsigned long)
+  3.23      0.23     0.03                             std::vector<char, std::allocator<char> >::operator[](unsigned long)
+  3.23      0.26     0.03                             void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&)
+  2.69      0.28     0.03                             __gnu_cxx::new_allocator<int>::~new_allocator()
+  2.69      0.31     0.03                             std::_Vector_base<int, std::allocator<int> >::_Vector_base(std::allocator<int> const&)
+  2.69      0.34     0.03                             std::vector<int, std::allocator<int> >::_S_max_size(std::allocator<int> const&)
+  2.15      0.35     0.02                             __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >::__normal_iterator(int const* const&)
+  2.15      0.38     0.02                             __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >::base() const
+  2.15      0.40     0.02                             std::_Vector_base<int, std::allocator<int> >::~_Vector_base()
+  2.15      0.41     0.02                             std::deque<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::pop_back()
+  2.15      0.43     0.02                             std::vector<int, std::allocator<int> >::_S_check_init_len(unsigned long, std::allocator<int> const&)
+  2.15      0.46     0.02                             void std::vector<int, std::allocator<int> >::_M_range_initialize<int const*>(int const*, int const*, std::forward_iterator_tag)
+  2.15      0.47     0.02                             std::vector<int, std::allocator<int> >::operator=(std::vector<int, std::allocator<int> > const&)
+  2.15      0.49     0.02                             std::vector<int, std::allocator<int> >&& std::forward<std::vector<int, std::allocator<int> > >(std::remove_reference<std::vector<int, std::allocator<int> > >::type&)
+  1.61      0.51     0.01                             void std::_Destroy_aux<true>::__destroy<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >)
+  1.61      0.53     0.01                             std::_Deque_iterator<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> >&, std::vector<int, std::allocator<int> >*>::operator--()
+  1.61      0.54     0.01                             bool std::equal<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >)
+  1.08      0.55     0.01                             Map::errCheck(int, int, char)
+  1.08      0.56     0.01                             __gnu_cxx::new_allocator<int>::new_allocator()
+  1.08      0.57     0.01                             __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::base() const
+  1.08      0.58     0.01                             __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::operator+(long) const
+  1.08      0.59     0.01                             std::_Deque_iterator<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> >&, std::vector<int, std::allocator<int> >*>::operator*() const
+  1.08      0.60     0.01                             std::initializer_list<int>::begin() const
+  1.08      0.61     0.01                             std::vector<char, std::allocator<char> >::size() const
+  1.08      0.62     0.01                             std::vector<int, std::allocator<int> >::size() const
+  1.08      0.63     0.01                             std::vector<int, std::allocator<int> >::begin() const
+  1.08      0.64     0.01                             std::vector<int, std::allocator<int> >::capacity() const
+  1.08      0.65     0.01                             std::allocator<int>::allocator(std::allocator<int> const&)
+  1.08      0.66     0.01                             std::allocator<int>::allocator()
+  1.08      0.67     0.01                             std::allocator<int>::~allocator()
+  1.08      0.68     0.01                             int* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<int>(int const*, int const*, int*)
+  1.08      0.69     0.01                             std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long)
+  1.08      0.70     0.01                             std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl(std::_Vector_base<int, std::allocator<int> >::_Vector_impl&&)
+  1.08      0.71     0.01                             std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl()
+  1.08      0.72     0.01                             std::_Vector_base<int, std::allocator<int> >::_Vector_impl_data::_Vector_impl_data(std::_Vector_base<int, std::allocator<int> >::_Vector_impl_data&&)
+  1.08      0.73     0.01                             std::_Vector_base<int, std::allocator<int> >::_Vector_impl_data::_Vector_impl_data()
+  1.08      0.74     0.01                             std::_Deque_iterator<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> >&, std::vector<int, std::allocator<int> >*>::_M_set_node(std::vector<int, std::allocator<int> >**)
+  1.08      0.75     0.01                             std::_Deque_iterator<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> >&, std::vector<int, std::allocator<int> >*>::_Deque_iterator(std::_Deque_iterator<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> >&, std::vector<int, std::allocator<int> >*> const&)
+  1.08      0.76     0.01                             void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> >&&)
+  1.08      0.77     0.01                             std::deque<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_pop_back_aux()
+  1.08      0.78     0.01                             std::deque<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::back()
+  1.08      0.79     0.01                             std::vector<std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >, std::allocator<std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > > >::operator[](unsigned long)
+  1.08      0.80     0.01                             std::vector<int, std::allocator<int> >::vector(std::initializer_list<int>, std::allocator<int> const&)
+  1.08      0.81     0.01                             std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&)
+  1.08      0.82     0.01                             std::vector<int, std::allocator<int> >::operator[](unsigned long)
+  1.08      0.83     0.01                             bool std::__equal_aux1<int const*, int const*>(int const*, int const*, int const*)
+  1.08      0.84     0.01                             int const* std::__niter_base<int const*>(int const*)
+  1.08      0.85     0.01                             __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > std::__copy_move_a<false, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >)
+  1.08      0.86     0.01                             void std::_Destroy<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >)
+  1.08      0.87     0.01                             _init
+  0.54      0.88     0.01                             void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::destroy<std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*)
+  0.54      0.88     0.01                             std::_Vector_base<int, std::allocator<int> >::_Vector_base(std::_Vector_base<int, std::allocator<int> >&&)
+  0.54      0.89     0.01                             std::allocator_traits<std::allocator<int> >::deallocate(std::allocator<int>&, int*, unsigned long)
+  0.54      0.89     0.01                             std::allocator_traits<std::allocator<int> >::select_on_container_copy_construction(std::allocator<int> const&)
+  0.54      0.90     0.01                             std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long)
+  0.54      0.90     0.01                             std::vector<char, std::allocator<char> >::_S_do_relocate(char*, char*, char*, std::allocator<char>&, std::integral_constant<bool, true>)
+  0.54      0.91     0.01                             std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> >&&)
+  0.54      0.91     0.01                             int* std::__niter_base<int*>(int*)
+  0.54      0.92     0.01                             char* std::__uninitialized_fill_n_a<char*, unsigned long, char, char>(char*, unsigned long, char const&, std::allocator<char>&)
+  0.54      0.92     0.01                             int* std::copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*)
+  0.54      0.93     0.01                             std::vector<int, std::allocator<int> > const& std::forward<std::vector<int, std::allocator<int> > const&>(std::remove_reference<std::vector<int, std::allocator<int> > const&>::type&)
+  0.54      0.93     0.01                             char const& std::forward<char const&>(std::remove_reference<char const&>::type&)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
